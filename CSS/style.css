@@ -62,6 +62,7 @@ nav>a:hover {
 
 }
 
+
 #titulo-sobre-min {}
 
 
@@ -81,41 +82,36 @@ nav>a:hover {
 }
 
 #img-foto {
-    border-radius: 20px;
-    width: 550px;
-    height: 550px;
-    border-radius: 400%;
+    border-radius: 200px;
+    width: 500px;
+    height: 500px;
+    border-radius: 1000%;
     float: left;
-    margin-left: 30%;
+    margin-right:30%;
+    box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
 }
 
 .ordem-sobre-min {
-
+   
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: flex-start;
-
 
 }
 
 #texto-sobre-min {
-    padding-left: 95px;
-}
-
-#titulo-sobre-min {
-
-    margin-top: 200px;
-
+    padding-right: 90px;
+    padding-top: 10px;
 }
 
 .endereço {
-    padding-left: 95px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 #style-endereço {
@@ -550,7 +546,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 1100px;
         border-radius: 50px;
         text-align: center;
@@ -565,7 +561,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 930px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -581,7 +577,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 750px;
         background-color: #000000;
         border-radius: 50px;
@@ -611,32 +607,34 @@ label {
     }
 
     #img-foto {
-        border-radius: 20px;
-        width: 550px;
-        height: 550px;
-        border-radius: 500%;
+        border-radius: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 35%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 95px;
+        padding-right: 90px;
+        padding-top: 10px;
     }
 
     .endereço {
-        padding-left: 95px;
+        padding-left: 0px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
@@ -1094,8 +1092,8 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 1000px;
+        margin-bottom: 7px;
+        left: 1050px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -1109,8 +1107,8 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
-        left: 900px;
+        margin-bottom: 7px;
+        left: 905px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         text-align: center;
@@ -1125,8 +1123,8 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 800px;
+        margin-bottom: 7px;
+        left: 750px;
         background-color: #000000;
         border-radius: 50px;
         text-align: center;
@@ -1156,26 +1154,28 @@ label {
     }
 
     #img-foto {
-        border-radius: 20px;
-        width: 550px;
-        height: 550px;
-        border-radius: 400%;
+        border-radius: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 35%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 95px;
+        padding-right: 90px;
+        padding-top: 10px;
     }
 
 
@@ -1183,10 +1183,10 @@ label {
     .endereço {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 95px;
+       
 
     }
 
@@ -1650,8 +1650,8 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 1000px;
+        margin-bottom: 7px;
+        left: 1050px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -1665,8 +1665,8 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
-        left: 900px;
+        margin-bottom: 7px;
+        left: 895px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         text-align: center;
@@ -1681,8 +1681,8 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 800px;
+        margin-bottom: 7px;
+        left: 740px;
         background-color: #000000;
         border-radius: 50px;
         text-align: center;
@@ -1708,30 +1708,32 @@ label {
     }
 
     #titulo-sobre-min {
-        margin-top: 250px;
+        margin-top: 200px;
     }
 
     #img-foto {
-        border-radius: 20px;
-        width: 550px;
-        height: 550px;
-        border-radius: 400%;
+        border-radius: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 34%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 95px;
+        padding-right: 90px;
+        padding-top: 10px;
     }
 
 
@@ -1739,12 +1741,13 @@ label {
     .endereço {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 95px;
+       
 
     }
+
 
     #style-endereço {
         color: white;
@@ -2201,7 +2204,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 1030px;
         border-radius: 50px;
         text-align: center;
@@ -2216,7 +2219,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 890px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -2232,7 +2235,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 750px;
         background-color: #000000;
         border-radius: 50px;
@@ -2257,39 +2260,46 @@ label {
     }
 
     #img-foto {
-        border-radius: 20px;
-        width: 550px;
-        height: 550px;
-        border-radius: 400%;
+        border-radius: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 35%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 95px;
+        padding-right: 90px;
+        padding-top: 10px;
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
     }
 
+
     .endereço {
-        padding-left: 95px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
+
+   
 
     #style-endereço {
         color: white;
@@ -2517,7 +2527,7 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 900px;
         background-color: #1bc55a;
         color: #ffffff;
@@ -2533,7 +2543,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 760px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
@@ -2549,7 +2559,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 615px;
         background-color: #000000;
         color: #050505;
@@ -2574,39 +2584,47 @@ label {
 
     }
 
-    #titulo-sobre-min {
-        margin-top: 200px;
-    }
+ 
 
     #img-foto {
-        border-radius: 20px;
+        border-radius: 200px;
         width: 500px;
-        height: 550px;
-        border-radius: 400%;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 33%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 50px;
+       padding: 50px;
+       
     }
 
+    #titulo-sobre-min {
+        margin-top: 200px;
+       
+    }
+
+
     .endereço {
-        padding-left: 50px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
 
     #style-endereço {
@@ -3054,13 +3072,13 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 850px;
+        margin-bottom: 7px;
+        left: 860px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3070,13 +3088,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 705px;
+        margin-bottom: 7px;
+        left: 710px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3086,13 +3104,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 560px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3111,39 +3129,45 @@ label {
 
     }
 
-    #titulo-sobre-min {
-        margin-top: 200px;
-    }
-
     #img-foto {
-        border-radius: 20px;
+        border-radius: 200px;
         width: 500px;
-        height: 550px;
-        border-radius: 400%;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 33%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 50px;
+       padding: 50px;
+       
     }
 
+    #titulo-sobre-min {
+        margin-top: 200px;
+       
+    }
+
+
     .endereço {
-        padding-left: 50px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
 
     #style-endereço {
@@ -3592,13 +3616,13 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 710px;
+        margin-bottom: 7px;
+        left: 750px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3608,13 +3632,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 610px;
+        margin-bottom: 7px;
+        left: 615px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3624,13 +3648,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 510px;
+        margin-bottom: 7px;
+        left: 470px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -3648,42 +3672,45 @@ label {
 
 
     }
-
-    #titulo-sobre-min {
-
-        margin-top: 200px;
-
-    }
-
     #img-foto {
-        border-radius: 20px;
-        width: 550px;
-        height: 550px;
-        border-radius: 400%;
+        border-radius: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 28%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 50px;
+       padding: 50px;
+       
     }
 
+    #titulo-sobre-min {
+        margin-top: 200px;
+       
+    }
+
+
     .endereço {
-        padding-left: 50px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
 
     #style-endereço {
@@ -4133,13 +4160,13 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 610px;
+        margin-bottom: 7px;
+        left: 620px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -4149,13 +4176,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 485px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -4165,13 +4192,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 350px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -4190,39 +4217,45 @@ label {
 
     }
 
-    #titulo-sobre-min {
-        margin-top: 200px;
-    }
-
     #img-foto {
-        border-radius: 20px;
+        border-radius: 200px;
         width: 500px;
-        height: 550px;
-        border-radius: 400%;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 25%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 50px;
+       padding: 50px;
+       
     }
 
+    #titulo-sobre-min {
+        margin-top: 200px;
+       
+    }
+
+
     .endereço {
-        padding-left: 50px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
 
     #style-endereço {
@@ -4673,7 +4706,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 550px;
         border-radius: 50px;
         text-align: center;
@@ -4688,7 +4721,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 430px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -4704,7 +4737,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        margin-bottom: 7px;
         left: 300px;
         background-color: #000000;
         border-radius: 50px;
@@ -4728,43 +4761,45 @@ label {
 
     }
 
-    #titulo-sobre-min {
-        margin-top: 250px;
-
-
-    }
-
-
     #img-foto {
-        border-radius: 20px;
+        border-radius: 200px;
         width: 500px;
-        height: 550px;
-        border-radius: 400%;
+        height: 500px;
+        border-radius: 1000%;
         float: left;
-        margin-left: 23%;
+        margin-right:30%;
+        box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-
+       
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
-
 
     }
 
     #texto-sobre-min {
-        padding-left: 10px;
+       padding: 10px;
+       
+    }
+
+    #titulo-sobre-min {
+        margin-top: 200px;
+       
     }
 
 
     .endereço {
-        padding: 10px;
+
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+       
+
     }
 
     #style-endereço {
