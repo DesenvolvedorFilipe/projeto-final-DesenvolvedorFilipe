@@ -63,8 +63,67 @@ nav>a:hover {
 }
 
 
-#titulo-sobre-min {}
+.ordem-whatssap {
+    background-color: rgb(2, 136, 2);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 7px;
+    left: 1100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 0px 9px 12px #61c942;
+    z-index: 1000;
+}
 
+.ordem-linkedin {
+    position: fixed;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    bottom: 7px;
+    left: 930px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 0px 9px 12px #61c942;
+    z-index: 1000;
+}
+
+.ordem-github {
+    align-items: center;
+    position: fixed;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    bottom: 7px;
+    left: 750px;
+    background-color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 0px 9px 12px #61c942;
+    z-index: 1000;
+}
+
+
+.ordem-inicio {
+    position: fixed;
+    align-items: center;
+    bottom: 70px;
+   
+    text-align: center;
+    font-size: 50px;
+    z-index: 1000;
+    position: fixed;
+    color: blue;
+    left: 1000px;
+    right: 100px;
+}
 
 
 .titulo-center {
@@ -87,12 +146,11 @@ nav>a:hover {
     height: 500px;
     border-radius: 1000%;
     float: left;
-    margin-right:30%;
     box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
 }
 
 .ordem-sobre-min {
-   
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,7 +160,7 @@ nav>a:hover {
 }
 
 #texto-sobre-min {
-    padding-right: 90px;
+    padding: 90px;
     padding-top: 10px;
 }
 
@@ -546,7 +604,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 1100px;
         border-radius: 50px;
         text-align: center;
@@ -561,7 +619,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 930px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -577,7 +635,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 750px;
         background-color: #000000;
         border-radius: 50px;
@@ -585,6 +643,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
     }
 
     .titulo-center {
@@ -612,12 +684,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1092,7 +1164,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 1050px;
         border-radius: 50px;
         text-align: center;
@@ -1107,7 +1179,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 905px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -1123,7 +1195,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 750px;
         background-color: #000000;
         border-radius: 50px;
@@ -1133,7 +1205,19 @@ label {
         z-index: 1000;
     }
 
-
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -1159,12 +1243,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1186,7 +1270,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -1650,7 +1734,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 1050px;
         border-radius: 50px;
         text-align: center;
@@ -1665,7 +1749,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 895px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -1681,7 +1765,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 740px;
         background-color: #000000;
         border-radius: 50px;
@@ -1691,7 +1775,19 @@ label {
         z-index: 1000;
     }
 
-
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -1717,12 +1813,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1744,7 +1840,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -2204,7 +2300,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 1030px;
         border-radius: 50px;
         text-align: center;
@@ -2219,7 +2315,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 890px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -2235,7 +2331,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 750px;
         background-color: #000000;
         border-radius: 50px;
@@ -2243,6 +2339,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
     }
 
     .titulo-center {
@@ -2265,12 +2375,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -2295,11 +2405,11 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
-   
+
 
     #style-endereço {
         color: white;
@@ -2527,13 +2637,13 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 900px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -2543,13 +2653,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 760px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -2559,17 +2669,30 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 615px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
 
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -2584,7 +2707,7 @@ label {
 
     }
 
- 
+
 
     #img-foto {
         border-radius: 200px;
@@ -2592,12 +2715,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -2607,13 +2730,13 @@ label {
     }
 
     #texto-sobre-min {
-       padding: 50px;
-       
+        padding: 50px;
+
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
-       
+
     }
 
 
@@ -2623,7 +2746,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -3072,7 +3195,7 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 860px;
         background-color: #1bc55a;
         color: #ffffff;
@@ -3088,7 +3211,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 710px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
@@ -3104,7 +3227,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 560px;
         background-color: #000000;
         color: #050505;
@@ -3115,6 +3238,19 @@ label {
         z-index: 1000;
     }
 
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -3135,12 +3271,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -3150,13 +3286,13 @@ label {
     }
 
     #texto-sobre-min {
-       padding: 50px;
-       
+        padding: 50px;
+
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
-       
+
     }
 
 
@@ -3166,7 +3302,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -3616,7 +3752,7 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 750px;
         background-color: #1bc55a;
         color: #ffffff;
@@ -3632,7 +3768,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 615px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
@@ -3648,7 +3784,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 470px;
         background-color: #000000;
         color: #050505;
@@ -3657,6 +3793,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 1000px;
+        right: 100px;
     }
 
     .titulo-center {
@@ -3672,18 +3822,19 @@ label {
 
 
     }
+
     #img-foto {
         border-radius: 200px;
         width: 500px;
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -3693,13 +3844,13 @@ label {
     }
 
     #texto-sobre-min {
-       padding: 50px;
-       
+        padding: 50px;
+
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
-       
+
     }
 
 
@@ -3709,7 +3860,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -4160,7 +4311,7 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 620px;
         background-color: #1bc55a;
         color: #ffffff;
@@ -4176,7 +4327,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 485px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
@@ -4192,7 +4343,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 350px;
         background-color: #000000;
         color: #050505;
@@ -4201,6 +4352,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 900px;
+        right: 0px;
     }
 
     .titulo-center {
@@ -4223,12 +4388,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -4238,13 +4403,13 @@ label {
     }
 
     #texto-sobre-min {
-       padding: 50px;
-       
+        padding: 50px;
+
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
-       
+
     }
 
 
@@ -4254,7 +4419,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -4706,7 +4871,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 550px;
         border-radius: 50px;
         text-align: center;
@@ -4721,7 +4886,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 430px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -4737,7 +4902,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        margin-bottom: 7px;
+        bottom: 7px;
         left: 300px;
         background-color: #000000;
         border-radius: 50px;
@@ -4745,6 +4910,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 500px;
+        right: 00px;
     }
 
     .titulo-center {
@@ -4767,12 +4946,12 @@ label {
         height: 500px;
         border-radius: 1000%;
         float: left;
-        margin-right:30%;
+
         box-shadow: rgba(249, 248, 248, 0.56) 0px 22px 70px 4px;
     }
 
     .ordem-sobre-min {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -4782,13 +4961,13 @@ label {
     }
 
     #texto-sobre-min {
-       padding: 10px;
-       
+        padding: 10px;
+
     }
 
     #titulo-sobre-min {
         margin-top: 200px;
-       
+
     }
 
 
@@ -4798,7 +4977,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-       
+
 
     }
 
@@ -5244,13 +5423,13 @@ label {
         align-items: center;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        bottom: 7px;
         left: 510px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -5260,13 +5439,13 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        bottom: 7px;
         left: 395px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
@@ -5276,17 +5455,30 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        bottom: 7px;
         left: 280px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
 
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 600px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -5314,7 +5506,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 20%;
+
     }
 
     .ordem-sobre-min {
@@ -5785,7 +5977,7 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        bottom: 7px;
         left: 340px;
         border-radius: 50px;
         text-align: center;
@@ -5800,7 +5992,7 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
+        bottom: 7px;
         left: 240px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
@@ -5816,7 +6008,7 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
+        bottom: 7px;
         left: 140px;
         background-color: #000000;
         border-radius: 50px;
@@ -5824,6 +6016,20 @@ label {
         font-size: 50px;
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
+    }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 500px;
+        right: 100px;
     }
 
     .titulo-center {
@@ -5857,7 +6063,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 2%;
+
     }
 
     .ordem-sobre-min {
@@ -5880,11 +6086,12 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+
     }
 
     #style-endereço {
         color: white;
-        padding: 0px;
+
         font-weight: bold;
         display: flex;
         align-items: center;
@@ -6384,6 +6591,20 @@ label {
         z-index: 1000;
     }
 
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 380px;
+        right: 100px;
+    }
+
     .titulo-center {
 
         align-items: center;
@@ -6790,7 +7011,7 @@ label {
         font-size: 15px;
         border-radius: 5px;
         padding: 10px;
-        
+
 
     }
 
@@ -6836,7 +7057,7 @@ label {
         color: white;
         font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
-        margin: 0%;
+
         background-color: #04380791;
         background-image:
             repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
@@ -6856,7 +7077,7 @@ label {
         padding-left: 5%;
         display: flex;
         position: fixed;
-        top: 0;
+        padding: 0px 50px;
         background-color: black;
         color: white;
         width: 100%;
@@ -6874,7 +7095,7 @@ label {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 7px;
+        padding: 7px 50px;
     }
 
     nav>a {
@@ -6900,8 +7121,8 @@ label {
         position: fixed;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 250px;
+        bottom: 7px;
+        left: 280px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -6915,8 +7136,8 @@ label {
         width: 60px;
         height: 60px;
         padding: 0px;
-        bottom: 2px;
-        left: 165px;
+        bottom: 7px;
+        left: 175px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         text-align: center;
@@ -6931,8 +7152,8 @@ label {
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        bottom: 2px;
-        left: 80px;
+        bottom: 7px;
+        left: 65px;
         background-color: #000000;
         border-radius: 50px;
         text-align: center;
@@ -6940,6 +7161,21 @@ label {
         box-shadow: 0px 0px 9px 12px #61c942;
         z-index: 1000;
     }
+
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 380px;
+        right: 100px;
+    }
+
 
 
     .titulo-center {
@@ -6973,7 +7209,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 3%;
+
     }
 
     .ordem-sobre-min {
@@ -7306,10 +7542,10 @@ label {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 20px 50px;
-        padding-left: 15px;
+        padding: 30px 50px;
+        padding-left: 25px;
         background: #0d3f028f;
-        width: 280px;
+        width: 100%;
 
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
@@ -7326,20 +7562,20 @@ label {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        padding: 0;
+        width: 100%;
     }
 
     #email {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        padding: 0;
+        width: 100%;
     }
 
     #message {
         font-size: 15px;
         border-radius: 5px;
-       
+
         padding: 10px;
     }
 
@@ -7493,6 +7729,19 @@ label {
         z-index: 1000;
     }
 
+    .ordem-inicio {
+        position: fixed;
+        align-items: center;
+        bottom: 70px;
+       
+        text-align: center;
+        font-size: 50px;
+        z-index: 1000;
+        position: fixed;
+        color: blue;
+        left: 260px;
+        right: 100px;
+    }
 
     .titulo-center {
 
@@ -7521,11 +7770,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 275px;
-        height: 650px;
+        width: 290px;
+        height: 450px;
         border-radius: 400%;
         float: left;
-        margin-left: 2%;
+        margin-right: 10%;
     }
 
     .ordem-sobre-min {
