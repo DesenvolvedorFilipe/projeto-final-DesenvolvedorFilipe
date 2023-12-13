@@ -4926,6 +4926,7 @@ label {
         right: 00px;
     }
 
+
     .titulo-center {
 
         align-items: center;
@@ -5281,73 +5282,85 @@ label {
         align-items: center;
         margin: auto;
     }
-
     .conteiner-formulario {
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 10px 45px;
+        padding: 20px 150px;
+        width: 100px;
         background: #0d3f028f;
-        width: 400px;
-
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
         font-size: 20;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 
     .h2 {
         color: white;
-        font-size: 3.5rem;
-        margin: 8rem;
+        font-size: 1.5rem;
+        margin: 4rem;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .titulo-email {
+
+        font-size: 18px;
     }
 
     #name {
-        font-size: 35.5px;
-        padding-bottom: 10px;
-        border-radius: 20px;
+        font-size: 25px;
+        padding-bottom: 0px;
+        border-radius: 5px;
+        padding: 10px 20px;
     }
 
     #email {
-        font-size: 35.5px;
-        padding-bottom: 10px;
-        border-radius: 20px;
+        font-size: 25px;
+        padding-bottom: 0px;
+        border-radius: 5px;
+        padding: 10px;
     }
 
     #message {
-        font-size: 19px;
-        padding-bottom: 10px;
-        border-radius: 20px;
+        font-size: 15px;
+        border-radius: 5px;
+        
+        padding: 10px  20px;
     }
 
     #botao {
         font-size: 27px;
-        width: 100%;
-        border-radius: 20px;
+        
+
     }
 
     form {
 
         display: flex;
         flex-direction: column;
-        width: 100%;
-        font-size: 0px;
+       
+        font-size: 10px;
     }
 
 
 
     input {
-
-        padding: 15px;
+        
+        padding: 10px;
         outline: none;
         border: 0;
-        margin-bottom: 50px;
-        font-size: 100px;
+        margin-bottom: 20px;
+        font-size: 10px;
         transition: all;
+        
     }
 
     label {
-        font-size: 30px;
+        font-size: 25px;
 
     }
 }
@@ -5501,21 +5514,22 @@ label {
     }
 
     #img-foto {
+        display: flex;
+        align-items: center;
         border-radius: 20px;
         width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-
+      
     }
 
     .ordem-sobre-min {
 
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-
+        
+        flex-wrap: wrap;
+        flex-direction: row;
 
     }
 
@@ -5871,7 +5885,7 @@ label {
     #message {
         font-size: 19px;
         padding-bottom: 10px;
-        padding: 10px;
+        padding: 0px;
         border-radius: 20px;
     }
 
@@ -6437,7 +6451,7 @@ label {
     #message {
         font-size: 19px;
         padding-bottom: 10px;
-        padding: 10px;
+        padding: 0px;
         border-radius: 20px;
     }
 
@@ -6491,25 +6505,29 @@ label {
             linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
         background-size: 70px 120px;
 
+       
     }
 
     .ordem-titulo {
         display: flex;
-
+        
+        padding: 18px;
     }
 
     #titulo-h1 {
-        padding-left: 30px;
+        padding-left: 10px;
+
+    
     }
 
     #titulo-one {
-        padding: 0%;
+       
         display: flex;
         position: fixed;
         top: 0;
         background-color: black;
         color: white;
-        width: 110%;
+       padding-left: 20px;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -6601,7 +6619,7 @@ label {
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 380px;
+        left: 400px;
         right: 100px;
     }
 
@@ -6614,7 +6632,7 @@ label {
         color: black;
         font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
-        padding-top: 0px;
+      
 
     }
 
@@ -6633,10 +6651,10 @@ label {
     #img-foto {
         border-radius: 20px;
         width: 400px;
-        height: 550px;
+        height: 500px;
         border-radius: 400%;
         float: left;
-        margin-left: 2%;
+        margin-left: 0%;
     }
 
     .ordem-sobre-min {
@@ -6966,22 +6984,19 @@ label {
 
     }
 
-    .conteiner-padrao {
-        width: 1200px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
+   
 
+
+  
     .conteiner-formulario {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding: 30px 50px;
+       
         background: #0d3f028f;
-        width: 300px;
-
+        width: 90%;
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
         font-size: 20;
@@ -6997,49 +7012,48 @@ label {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        padding: 0;
+       
+       
     }
 
     #email {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        padding: 0;
+       
     }
 
     #message {
-        font-size: 15px;
-        border-radius: 5px;
-        padding: 10px;
-
-
+        font-size: 20px;
+        border-radius: 0px;
+        padding: 0px;
+        
     }
 
     #botao {
-        font-size: 30px;
-        width: 100%;
+        font-size: 27px;
+      
         border-radius: 5px;
-        padding: 10;
+        padding: 10px;
 
     }
 
-    .form {
-
+    form {
+      
         display: flex;
         flex-direction: column;
-        padding: 20px;
-
+        padding-left: 15px;
+        font-size: 10px;
     }
 
 
 
-    .input {
-        width: 100%;
-        padding: 10px;
+    input {
+       
+      
         outline: none;
-        border: 0;
         margin-bottom: 50px;
-        font-size: 10px;
+        font-size: 15px;
         transition: all;
 
     }
@@ -7069,18 +7083,19 @@ label {
     }
 
     .ordem-titulo {
-        display: flex;
-
+        
+        padding-left: 70px;
+        
     }
 
     #titulo-one {
-        padding-left: 5%;
+        padding-left: 15px;
         display: flex;
         position: fixed;
-        padding: 0px 50px;
+        padding: 0px 30px;
         background-color: black;
         color: white;
-        width: 100%;
+        
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -7187,7 +7202,7 @@ label {
         color: black;
         font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
-
+        
 
     }
 
@@ -7543,10 +7558,9 @@ label {
         justify-content: center;
         flex-direction: column;
         padding: 30px 50px;
-        padding-left: 25px;
+       
         background: #0d3f028f;
         width: 100%;
-
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
         font-size: 20;
@@ -7562,47 +7576,48 @@ label {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        width: 100%;
+       
+       
     }
 
     #email {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-        width: 100%;
+       
     }
 
     #message {
         font-size: 15px;
-        border-radius: 5px;
-
-        padding: 10px;
+        border-radius: 0px;
+        width: 100%;
+        
     }
 
     #botao {
         font-size: 27px;
         width: 100%;
         border-radius: 5px;
+        padding: 10px;
 
     }
 
     form {
-
+        width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 25px;
-        font-size: 0px;
+        padding-left: 20px;
+        font-size: 10px;
     }
 
 
 
     input {
-        width: 100%;
-        padding: 10px;
+       
+      
         outline: none;
-        border: 0;
         margin-bottom: 50px;
-        font-size: 10px;
+        font-size: 15px;
         transition: all;
 
     }
@@ -7644,7 +7659,7 @@ label {
         top: 0;
         background-color: black;
         color: white;
-        width: 105%;
+        width: 80%;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -7739,7 +7754,7 @@ label {
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 260px;
+        left: 280px;
         right: 100px;
     }
 
@@ -7770,9 +7785,9 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 290px;
+        width: 300px;
         height: 450px;
-        border-radius: 400%;
+        border-radius: 200%;
         float: left;
         margin-right: 10%;
     }
@@ -7788,7 +7803,9 @@ label {
     }
 
     #texto-sobre-min {
-        padding-left: 10px;
+        padding-left: 30px;
+        
+
     }
 
     .endereço {
@@ -8111,10 +8128,9 @@ label {
         align-items: flex-end;
         justify-content: center;
         flex-direction: column;
-        padding: 0px 80px;
+        padding: 20px 110px;
         width: 100px;
         background: #0d3f028f;
-
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
         font-size: 20;
@@ -8138,27 +8154,27 @@ label {
         font-size: 25px;
         padding-bottom: 0px;
         border-radius: 5px;
-        padding: 10;
+        padding: 10px 20px;
     }
 
     #email {
         font-size: 25px;
         padding-bottom: 0px;
         border-radius: 5px;
-        padding: 10;
+        padding: 10px 20px;
     }
 
     #message {
         font-size: 15px;
         border-radius: 5px;
         width: 100%;
-        padding: 0px;
+        padding: 10px  20px;
     }
 
     #botao {
-        font-size: 10px;
-        width: 100%;
-        border-radius: 5px;
+        font-size: 27px;
+    width: 125%;
+    
 
     }
 
@@ -8166,25 +8182,25 @@ label {
 
         display: flex;
         flex-direction: column;
-        padding: 50px;
-        font-size: 0px;
+       
+        font-size: 10px;
     }
 
 
 
     input {
-        width: 100%;
-        padding: 20px;
+        
+        padding: 10px;
         outline: none;
         border: 0;
         margin-bottom: 20px;
         font-size: 10px;
         transition: all;
-
+        
     }
 
     label {
-        font-size: 20px;
+        font-size: 25px;
 
     }
 }
