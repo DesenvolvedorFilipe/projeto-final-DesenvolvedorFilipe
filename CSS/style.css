@@ -655,7 +655,7 @@ label {
         position: fixed;
         color: blue;
         padding-right: 300px;
-        
+
     }
 
     .titulo-center {
@@ -799,9 +799,7 @@ label {
         margin-top: 20px;
     }
 
-    .conteiner-text-projeto1 {
-
-    }
+    .conteiner-text-projeto1 {}
 
     .text-projeto1 {
         text-align: center;
@@ -3773,7 +3771,7 @@ label {
         position: fixed;
         color: blue;
         left: 900px;
-        
+
     }
 
     .titulo-center {
@@ -4331,7 +4329,7 @@ label {
         position: fixed;
         color: blue;
         left: 750px;
-       
+
     }
 
     .titulo-center {
@@ -4888,7 +4886,7 @@ label {
         position: fixed;
         color: blue;
         left: 700px;
-        
+
     }
 
 
@@ -5247,6 +5245,7 @@ label {
         align-items: center;
         margin: auto;
     }
+
     .conteiner-formulario {
         display: flex;
         align-items: center;
@@ -5272,7 +5271,7 @@ label {
     }
 
     .titulo-email {
-        
+
         font-size: 18px;
     }
 
@@ -5294,13 +5293,13 @@ label {
     #message {
         font-size: 15px;
         border-radius: 20px;
-        
-        padding: 10px  20px;
+
+        padding: 10px 20px;
     }
 
     #botao {
         font-size: 27px;
-        
+
 
     }
 
@@ -5308,21 +5307,21 @@ label {
 
         display: flex;
         flex-direction: column;
-       
+
         font-size: 10px;
     }
 
 
 
     input {
-        
+
         padding: 10px;
         outline: none;
         border: 0;
         margin-bottom: 20px;
         font-size: 10px;
         transition: all;
-        
+
     }
 
     label {
@@ -5455,7 +5454,7 @@ label {
         position: fixed;
         color: blue;
         left: 650px;
-       
+
     }
 
     .titulo-center {
@@ -5486,13 +5485,13 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-      
+
     }
 
     .ordem-sobre-min {
 
         display: flex;
-        
+
         flex-wrap: wrap;
         flex-direction: row;
 
@@ -5998,7 +5997,7 @@ label {
     }
 
     .ordem-inicio {
-       
+
         border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
@@ -6467,29 +6466,29 @@ label {
             linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
         background-size: 70px 120px;
 
-       
+
     }
 
     .ordem-titulo {
         display: flex;
-        
+
         padding: 18px;
     }
 
     #titulo-h1 {
         padding-left: 10px;
 
-    
+
     }
 
     #titulo-one {
-       
+
         display: flex;
         position: fixed;
         top: 0;
         background-color: black;
         color: white;
-       padding-left: 30px;
+        padding-left: 30px;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -6579,7 +6578,7 @@ label {
         position: fixed;
         color: blue;
         left: 80px;
-      
+
     }
 
     .titulo-center {
@@ -6591,7 +6590,7 @@ label {
         color: black;
         font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
-      
+
 
     }
 
@@ -6943,17 +6942,17 @@ label {
 
     }
 
-   
 
 
-  
+
+
     .conteiner-formulario {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding: 30px 50px;
-       
+
         background: #0d3f028f;
         width: 90%;
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
@@ -6971,34 +6970,34 @@ label {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-       
-       
+
+
     }
 
     #email {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-       
+
     }
 
     #message {
         font-size: 20px;
         border-radius: 0px;
         padding: 0px;
-        
+
     }
 
     #botao {
         font-size: 27px;
-      
+
         border-radius: 5px;
         padding: 10px;
 
     }
 
     form {
-      
+
         display: flex;
         flex-direction: column;
         padding-left: 15px;
@@ -7008,8 +7007,8 @@ label {
 
 
     input {
-       
-      
+
+
         outline: none;
         margin-bottom: 50px;
         font-size: 15px;
@@ -7042,9 +7041,9 @@ label {
     }
 
     .ordem-titulo {
-        
+
         padding-left: 50px;
-        
+
     }
 
     #titulo-one {
@@ -7054,7 +7053,7 @@ label {
         padding: 10px;
         background-color: black;
         color: white;
-        
+
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -7161,7 +7160,7 @@ label {
         color: black;
         font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
-        
+
 
     }
 
@@ -7517,7 +7516,7 @@ label {
         justify-content: center;
         flex-direction: column;
         padding: 30px 50px;
-       
+
         background: #0d3f028f;
         width: 100%;
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
@@ -7535,22 +7534,22 @@ label {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-       
-       
+
+
     }
 
     #email {
         font-size: 30px;
         padding-bottom: 10px;
         border-radius: 5px;
-       
+
     }
 
     #message {
         font-size: 15px;
         border-radius: 0px;
         width: 100%;
-        
+
     }
 
     #botao {
@@ -7572,8 +7571,8 @@ label {
 
 
     input {
-       
-      
+
+
         outline: none;
         margin-bottom: 50px;
         font-size: 15px;
@@ -7732,7 +7731,7 @@ label {
 
     #sobre-min {
         margin-top: 0px;
-       
+
         padding: 1px;
 
     }
@@ -7759,13 +7758,13 @@ label {
 
     #texto-sobre-min {
         padding-left: 10px;
-        
+
 
     }
 
     .endereço {
         padding-left: 10px;
-       
+
 
 
     }
@@ -7774,7 +7773,7 @@ label {
         color: white;
         padding-left: 1px;
         font-weight: bold;
-        
+
 
 
     }
@@ -7782,7 +7781,7 @@ label {
     #skills {
 
         padding-top: 10px;
-       
+
 
 
     }
@@ -7792,20 +7791,20 @@ label {
     .ordem-skills {
         display: flex;
         border-radius: 20px;
-        
+
         padding-left: 10px;
     }
 
     .curriculo {
         padding-left: 0px;
-       
+
 
     }
 
     #style-curriculo {
         color: black;
         padding-left: 10px;
-        
+
         padding-left: 0px;
     }
 
@@ -8074,15 +8073,17 @@ label {
 
     .conteiner-formulario {
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-end;
         flex-direction: column;
-        padding: 20px 110px;
-        width: 100px;
+        padding: 10px 50px;
+        width: 100%;
         background: #0d3f028f;
         box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
         border-radius: 20px;
         font-size: 20;
+        flex-wrap: nowrap;
+        align-content: flex-start;
     }
 
     .h2 {
@@ -8103,53 +8104,54 @@ label {
         font-size: 25px;
         padding-bottom: 0px;
         border-radius: 5px;
-        padding: 10px 20px;
+        padding: 10px 5px;
     }
 
     #email {
         font-size: 25px;
         padding-bottom: 0px;
         border-radius: 5px;
-        padding: 10px 20px;
+        padding: 10px 5px;
     }
 
     #message {
         font-size: 15px;
         border-radius: 5px;
-        left: 50px;
-        padding: 10px ;
+
+        padding: 10px 5PX;
     }
 
     #botao {
-        font-size: 27px;
-        left: 10px;
-    
-
+        padding: 10PX 10px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 105%;
     }
 
     form {
 
         display: flex;
         flex-direction: column;
-       
         font-size: 10px;
+        align-items: flex-start;
     }
 
 
 
     input {
-        
+
         padding-left: 0px;
         outline: none;
-
         font-size: 10px;
         transition: all;
         width: 100%;
     }
 
     label {
-        font-size: 10px;
-padding-left: 50px;
-width: 100%;
+        font-size: 20px;
+
+        width: 100%;
     }
 }
