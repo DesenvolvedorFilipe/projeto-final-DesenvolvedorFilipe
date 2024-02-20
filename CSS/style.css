@@ -7662,7 +7662,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 190px;
+        left: 250px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -7677,7 +7677,7 @@ label {
         height: 60px;
         padding: 0px;
         bottom: 2px;
-        left: 110px;
+        left: 145px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         text-align: center;
@@ -7705,15 +7705,14 @@ label {
     .ordem-inicio {
         position: fixed;
         align-items: center;
-        bottom: 70px;
-
+        bottom: 0px;
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 280px;
-        right: 100px;
+        left: 0px;
+        
     }
 
     .titulo-center {
