@@ -85,7 +85,7 @@ nav>a:hover {
     height: 60px;
     padding: 0px;
     bottom: 7px;
-    left: 930px;
+    left: 0px;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
     text-align: center;
@@ -648,14 +648,13 @@ label {
     .ordem-inicio {
         position: fixed;
         align-items: center;
-        bottom: 70px;
+        bottom: 50px;
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        padding-right: 700px;
-        
+        padding-right: 300px;
         
     }
 
@@ -1154,7 +1153,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 7px;
-        left: 1065px;
+        left: 1050px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -1169,7 +1168,7 @@ label {
         height: 60px;
         padding: 0px;
         bottom: 7px;
-        left: 905px;
+        left: 899px;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         text-align: center;
@@ -2290,7 +2289,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 7px;
-        left: 1030px;
+        left: 1020px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -3192,7 +3191,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 7px;
-        left: 710px;
+        left: 715px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
@@ -3222,14 +3221,12 @@ label {
         position: fixed;
         align-items: center;
         bottom: 50px;
-
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        
-        right: 1000px;
+        left: 900px;
     }
 
     .titulo-center {
@@ -3775,8 +3772,8 @@ label {
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 100px;
-        right: 1000px;
+        left: 900px;
+        
     }
 
     .titulo-center {
@@ -4328,14 +4325,13 @@ label {
         position: fixed;
         align-items: center;
         bottom: 70px;
-
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 900px;
-        right: 0px;
+        left: 750px;
+       
     }
 
     .titulo-center {
@@ -4886,14 +4882,13 @@ label {
         position: fixed;
         align-items: center;
         bottom: 70px;
-
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 500px;
-        right: 00px;
+        left: 700px;
+        
     }
 
 
@@ -5277,7 +5272,7 @@ label {
     }
 
     .titulo-email {
-
+        
         font-size: 18px;
     }
 
@@ -5286,18 +5281,19 @@ label {
         padding-bottom: 0px;
         border-radius: 5px;
         padding: 10px 20px;
+        border-radius: 20px;
     }
 
     #email {
         font-size: 25px;
         padding-bottom: 0px;
-        border-radius: 5px;
+        border-radius: 20px;
         padding: 10px;
     }
 
     #message {
         font-size: 15px;
-        border-radius: 5px;
+        border-radius: 20px;
         
         padding: 10px  20px;
     }
@@ -5453,14 +5449,13 @@ label {
         position: fixed;
         align-items: center;
         bottom: 70px;
-
         text-align: center;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 600px;
-        right: 100px;
+        left: 650px;
+       
     }
 
     .titulo-center {
@@ -6003,17 +5998,12 @@ label {
     }
 
     .ordem-inicio {
-        position: fixed;
-        align-items: center;
-        bottom: 70px;
-
-        text-align: center;
-        font-size: 50px;
-        z-index: 1000;
-        position: fixed;
-        color: blue;
-        left: 500px;
-        right: 100px;
+        
+    color: blue;
+    max-width: none;
+    bottom: 10px;
+    left: 450px;
+    
     }
 
     .titulo-center {
