@@ -5998,12 +5998,13 @@ label {
     }
 
     .ordem-inicio {
-        
-    color: blue;
-    max-width: none;
-    bottom: 10px;
-    left: 450px;
-    
+       
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        bottom: -460px;
+        padding-left: 350px;
     }
 
     .titulo-center {
@@ -6488,7 +6489,7 @@ label {
         top: 0;
         background-color: black;
         color: white;
-       padding-left: 20px;
+       padding-left: 30px;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -6572,16 +6573,13 @@ label {
 
     .ordem-inicio {
         position: fixed;
-        align-items: center;
-        bottom: 70px;
-
-        text-align: center;
+        bottom: -450px;
         font-size: 50px;
         z-index: 1000;
         position: fixed;
         color: blue;
-        left: 400px;
-        right: 100px;
+        left: 80px;
+      
     }
 
     .titulo-center {
@@ -7045,15 +7043,15 @@ label {
 
     .ordem-titulo {
         
-        padding-left: 70px;
+        padding-left: 50px;
         
     }
 
     #titulo-one {
-        padding-left: 15px;
+        padding-left: 20px;
         display: flex;
         position: fixed;
-        padding: 0px 30px;
+        padding: 10px;
         background-color: black;
         color: white;
         
@@ -7593,7 +7591,7 @@ label {
 
     body {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
@@ -7620,7 +7618,7 @@ label {
         top: 0;
         background-color: black;
         color: white;
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
@@ -7734,8 +7732,7 @@ label {
 
     #sobre-min {
         margin-top: 0px;
-        display: flex;
-        flex-direction: column;
+       
         padding: 1px;
 
     }
@@ -7755,25 +7752,21 @@ label {
 
     .ordem-sobre-min {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        padding-left: 10px;
 
 
     }
 
     #texto-sobre-min {
-        padding-left: 30px;
+        padding-left: 10px;
         
 
     }
 
     .endereço {
         padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       
+
 
     }
 
@@ -7781,14 +7774,16 @@ label {
         color: white;
         padding-left: 1px;
         font-weight: bold;
+        
+
 
     }
 
     #skills {
 
-        padding-top: 0px;
-        display: flex;
-        flex-direction: column;
+        padding-top: 10px;
+       
+
 
     }
 
@@ -7797,27 +7792,20 @@ label {
     .ordem-skills {
         display: flex;
         border-radius: 20px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-left: 0px;
+        
+        padding-left: 10px;
     }
 
     .curriculo {
         padding-left: 0px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
+       
 
     }
 
     #style-curriculo {
         color: black;
         padding-left: 10px;
-        font-weight: bold;
-        flex-direction: column;
-        align-items: center;
+        
         padding-left: 0px;
     }
 
@@ -8128,13 +8116,13 @@ label {
     #message {
         font-size: 15px;
         border-radius: 5px;
-        width: 100%;
-        padding: 10px  20px;
+        left: 50px;
+        padding: 10px ;
     }
 
     #botao {
         font-size: 27px;
-    width: 125%;
+        left: 10px;
     
 
     }
@@ -8151,17 +8139,17 @@ label {
 
     input {
         
-        padding: 10px;
+        padding-left: 0px;
         outline: none;
-        border: 0;
-        margin-bottom: 20px;
+
         font-size: 10px;
         transition: all;
-        
+        width: 100%;
     }
 
     label {
-        font-size: 25px;
-
+        font-size: 10px;
+padding-left: 50px;
+width: 100%;
     }
 }
